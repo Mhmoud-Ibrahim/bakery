@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    scroll-behavior:smooth;
+}
+/* start home */
+.home{
+    background-color: blue;
+    text-align: center;
+    background-image: url(img/drew-coffman-1872.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+}
+.home h3{
+    margin: 40px 0px 20px;
+    color: white;
+    font-size:18px;
+    color: #ccc;
+    font-family:sans-serif,monospace;
+    font-weight: 300;
+    }
+    .home p{
+        color:#cccccc;
+        font-size: 18px;
+        font-family:sans-serif,monospace;
+        line-height: 1.86em;
+        font-weight: 300;
+        margin-bottom: 35px;
+        }
+    .home h1{
+        margin: 15px;
+        color: #fff;
+        font-size: 50px;
+    }
+    
+    .home .btn1{
+        padding: 8px 12px;
+        margin: 10px 0px 100px 0px;
+        border: none;
+        font-size: 12px;
+        border-radius: 3px;
+        text-align: center;
+        margin-right: 10px;
+        cursor: pointer;
+        transition: all .3s;
+        font-family:sans-serif,monospace;
+        background-color: #8e7754;
+        color: #fff;
+    }
+    .home .btn2{
+        padding:7px 10px;
+        margin: 10px 0px 100px 0px;
+        border: 2px solid #fff;
+        font-size: 12px;
+        border-radius: 3px;
+        text-align: center;
+        cursor: pointer;
+        transition: all .3s;
+        font-family:sans-serif,monospace;
+        background-color:transparent;
+        color: #fff;
+    }
+    .home button:hover{
+        background-color: white;
+        color: gray;
+    }
+    .scroll-btn{
+    background-color:transparent;
+    height: 28px;
+    width: 15px;
+    border: 2px solid #ccc;
+    border-radius:35px;
+    top: 360px;
+    
+    position:absolute;
+}
+
+.spanenemy{
+        background-color: hsla(0,0%,100%,.9);
+        height: 6px;
+        width:3px;
+        border-radius: 10px;
+        position: absolute;
+        top: 6px;
+        left: 11px;
+        -webkit-animation: scroll-animation 2.5s linear infinite;
+    }
+    /* start nav */
+.nav{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.068);
+    }
+    .nav-logo{
+        width:20%;
+        float: left;
+        
+    }
+    .nav .items{
+        width: 35%;
+        float: right;
+    }
+    .clr{
+        clear: both;
+    }
+    .nav img{
+        width: 50%;
+        margin: 10px 5px;
+        color: white;
+    }
+    .nav ul li{
+        list-style: none;
+        float: left;
+        margin:20px  10px ;
+    }
+    .nav a{
+        text-decoration: none;
+        color: white;
+        font-size: 10px;
+    }
+    /* start about */
+    .about-img{
+        float: left;
+        width:40%;
+    }
+    .about .about-img img{
+        width: 100%;
+        padding:60px;
+    }
+    .about-info{
+        float: right;
+        width: 50%;
+    }
+    .about-info h2{
+        color: #303030;
+        margin: 50px 0 25px 0;
+        text-align: center;
+    }
+    .about-info p{
+        color: #686868;
+        line-height: 1.56em;
+        margin: 5px ;
+        margin: 10px;
+        font-family:sans-serif,monospace;
+        font-size: 14px;
+        text-align: left;
+    }
+    .about-info ul{
+        list-style: none;
+        line-height:60px;
+        margin-left:17px;
+        
+    }
+    /* .about-info  li{
+        margin: 20px;
+    } */
+    .about-info ul li::before{
+        content: " *";
+        padding: 10px;
+        height: 80%;
+        border: 1px solid gray;
+        border-radius: 50%;
+        margin-right: 17px;
+    }
+    /* end about */
+     /* start-location  */
+     .location{
+         background-color:#f5f4f4b9;
+    }
+    .location .loc-info{
+        width: 40%;
+        text-align: center;
+        padding: 20px;
+        line-height: 30px;
+        font-size: 14px;
+        font-family:sans-serif,monospace;
+        columns: #ccc;
+        margin-top: 50px;
+    }
+    .location .loc-info h2{
+        margin-bottom: 30px;
+    }
+    .location img{
+        width:50%;
+        float: right;
+        padding: 30px;
+    }
+    .location .loc-info{
+        float: left;
+    }
+/* end-location  */
+/* start our baking */
+/* end our baking  */
