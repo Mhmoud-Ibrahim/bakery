@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times', sans-serif;
+}
+:root{
+    --main-color:#8e7754;
+}
+p{
+    font-size: 12px;
+}
+/* header  */
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/drew-coffman-1872.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+header nav{
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Alegreya sans', sans-serif;
+}
+header .side-icons{
+    width:30px;
+    height: 55px;
+    background-color: white;
+    z-index: 10;
+    position: absolute;
+    right: 0;
+    top: 120px;
+    border-radius: 3px 0 0 3px;
+}
+header .home .home-content h1{
+font-size: 70px;
+font-weight: 800;
+font-family: 'times', Courier, monospace;
+}
+header .home .home-content .btn1{
+    font-size:12px;
+    padding: 5px;
+    border-radius: 3px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #8e7754 !important;
+    color: white;
+    transition: all 0.6s;
+    
+}
+header .home .home-content .btn2{
+    font-size:12px;
+    padding: 5px;
+    border-radius: 3px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:transparent;
+    color: white;
+    border:1px solid white;
+    transition: all 0.6s;
+}
+header .home-content .btn1:hover{
+    background-color: white !important;
+    color: gray;
+    border:1px solid white;
+}
+header .home-content .btn2:hover{
+    background-color: white !important;
+    color: gray;
+    border:1px solid white;
+}
+header .animation {
+    position: relative;
+    width: 20px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 50px;
+    margin: auto;
+    text-align: center;
+    display: flex;justify-content: center;
+    margin-top:20px;
+}
+header .animation span {
+    position: absolute;
+    width:5px ;
+    height: 5px;
+    background-color: white;
+    border-radius: 50%;
+    animation-name: moveSpan;
+    animation-iteration-count: infinite;
+    animation-duration:2s;
+    margin: auto;
+}
+@keyframes moveSpan {
+    0%{ margin-top:170%;}
+    100%{margin-top:0;opacity: 0;}
+}
+/* end-header */
+/* about */
+.about .container .row img{
+    width: 100%;
+}
+.about .container .row li{
+   list-style: none;
+   font-size: 14px;
+   margin:5px 0 0 0 ;
+}
+.about p{
+    font-size: 12px;
+}
+.about i{
+    color: var(--main-color);
+    border: 0.5px solid #929292;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 3px;
+   
+
+}
+/* end-about */
+/* start-offer */
+.offer{
+    background-color: #F8F8F8;
+}
+.offer p{
+    font-size: 12px;
+}
+/* end-offer */
+/* contcat */
+.contact p{
+    font-size: 12px;
+}
+.contact li{
+    list-style: none;
+    font-size: 12px;
+}
+.contact i{
+    background-color: var(--main-color);
+    border-radius: 50%;
+    padding: 5px;
+    margin: 3px;
+    color: white;
+}
+/* end-contct */
+/* start-footer */
+footer{
+    background-color: #403D38;
+}
+footer p,li{
+    font-size:12px !important;
+}
+footer li{
+    border-bottom: 1px solid #303030;
+}
+.end-footer{
+    text-align: center;
+    background-color: #303030;
+}
+.end-footer img{
+    width: 20%;
+    margin: auto;
+}
+footer .end-footer i{
+    background-color: #b4acac;
+    border-radius: 50%;
+    color: white !important;
+    padding: 10px;
+    transition: 1s all;
+}
+footer  .fa-facebook-f:hover{
+    background-color: #3b5998;
+}
+footer  .fa-twitter:hover{
+    background-color: #00aced;
+}
+footer  .fa-google:hover{
+    background-color: red;
+}
+footer  .fa-linkedin-in:hover{
+    background-color: #3b5998;
+}
+
+/* end-footer */
